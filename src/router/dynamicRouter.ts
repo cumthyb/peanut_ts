@@ -1,0 +1,33 @@
+export default {routes:[{
+    path:'/About',
+    name:'About',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/About.vue')
+},{
+    path:'/Home/courseItem',
+    name:'Home-courseItem',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/courseItem.vue')
+},{
+    path:'/Home/courses',
+    name:'Home-courses',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/courses.vue')
+},{
+    path:'/Home/feature',
+    name:'Home-feature',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/feature.vue')
+},{
+    path:'/Home',
+    name:'Home',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/index.vue')
+},{
+    path:'/Home/praise',
+    name:'Home-praise',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/praise.vue')
+},{
+    path:'/Login',
+    name:'Login',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Login/index.vue')
+},{
+    path:'/tmp',
+    name:'tmp',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/tmp.vue')
+}]}
