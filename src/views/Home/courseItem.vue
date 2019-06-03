@@ -2,13 +2,20 @@
   <div class="course-card">
     <Card>
       <div>
-        <a class="a-link" :href="course.herf">
+        <router-link class="a-link" :to="{path:'/Course',query: {id:course.id}}">
           <img class="img" :src="course.imgsrc">
           <p class="title">{{course.title}}</p>
-        </a>
+        </router-link>
         <div class="metas clearfix">
-         <span class="view"> <img src="../../assets/imgs/yuedu.svg" alt="">  <span>{{course.view}}</span> </span>
-          <span class="comment"> <img src="../../assets/imgs/pinglun.svg" alt="">  {{course.comment}}</span>
+          <span class="view">
+            <img src="../../assets/imgs/yuedu.svg" alt>
+            <span>{{course.view}}</span>
+          </span>
+          <span class="comment">
+            <img src="../../assets/imgs/pinglun.svg" alt>
+            {{course.comment}}
+          </span>
+          <span class="price">{{course.price}}元</span>
         </div>
       </div>
     </Card>
@@ -73,10 +80,17 @@ export default class courseItem extends Vue {
       padding: 10px;
       color: #c1c1c1;
       .view {
-        padding:0 5px;
+        padding: 0 5px;
       }
       .comment {
-        padding:0 5px;
+        padding: 0 5px;
+      }
+      .price {
+        position: absolute;
+        right: 20px;
+        color: #ed3e3e;
+        font-size: 14px;
+        margin-right: 0;
       }
     }
   }

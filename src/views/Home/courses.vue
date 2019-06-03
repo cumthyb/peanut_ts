@@ -139,63 +139,72 @@ export default class Courses extends Vue {
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:2400
   }, {
     id: 1,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:2001
   }, {
     id: 2,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:21200
   }, {
     id: 3,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:8200
   }, {
     id: 4,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:2000
   }, {
     id: 5,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:2200
   }, {
     id: 6,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:100
   }, {
     id: 7,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:500
   }, {
     id: 8,
     herf: 'wwww.baidu.com',
     imgsrc: require("../../assets/imgs/coursedemo.jpg"),
     title: '深度学习发展现状与展望',
     view: 5321,
-    comment: 12
+    comment: 12,
+    price:800
   }]
 
   onFilterClick(key: string) {

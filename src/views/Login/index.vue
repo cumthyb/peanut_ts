@@ -141,6 +141,7 @@ export default class Login extends Vue {
   }
 
   doLogin(formLogin: any) {
+    debugger
     console.log('formLogin ', formLogin);
     this.$http
       .post('member-login', this.formLogin)

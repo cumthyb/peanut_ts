@@ -3,6 +3,10 @@ export default {routes:[{
     name:'About',
     component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/About.vue')
 },{
+    path:'/Course',
+    name:'Course',
+    component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Course/index.vue')
+},{
     path:'/Home/courseItem',
     name:'Home-courseItem',
     component:()=>import('/mnt/c/Users/cumth/Desktop/peanut_ts/src/views/Home/courseItem.vue')
